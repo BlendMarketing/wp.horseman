@@ -1,1 +1,5 @@
 public/wp-content
+vendor/*
+wp-vendor/*
+.DS_STORE
+**/*.sw*
