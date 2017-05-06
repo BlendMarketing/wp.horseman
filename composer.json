@@ -37,6 +37,7 @@
     "require": {
         "vlucas/phpdotenv": "^2.4",
         "johnpbloch/wordpress": "4.7.4.1",
-        "wpackagist-plugin/advanced-custom-fields": "^4.4"
+        "wpackagist-plugin/advanced-custom-fields": "^4.4",
+        "wpackagist-plugin/acf-to-rest-api": "^2.2"
     }
 }
