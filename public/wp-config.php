@@ -29,7 +29,10 @@ define("DB_HOST", getenv("DB_HOST"));
  * You can have multiple installations in one database if you give each
  * a unique prefix. Only numbers, letters, and underscores please!
  */
+$table_prefix  = "wp_"; 
+if(getenv("DB_PREFIX") != ""){
 $table_prefix  = getenv("DB_PREFIX");
+}
 
 /** Absolute path to the WordPress directory. */
 if ( !defined("ABSPATH") )
