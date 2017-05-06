@@ -1,3 +1,4 @@
+.env
 public/wordpress
 public/wp-content
 vendor/*
