@@ -1,6 +1,5 @@
-SHARED=/var/www/example.com/shared
+SHARED=/var/www/wp.horseman.io/shared
 
-ln -s $SHARED/node_modules ./ &&
 ln -s $SHARED/vendor ./ &&
 ln -s $SHARED/wp-vendor ./ &&
 
