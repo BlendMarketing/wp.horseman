@@ -30,7 +30,6 @@ function create_movie_review() {
         )
     );
 }
-
 define( 'ACF_LITE', true );
 if(function_exists("register_field_group"))
 {
