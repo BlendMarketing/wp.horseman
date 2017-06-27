@@ -12,6 +12,7 @@ add_filter( 'allowed_http_origins', 'add_allowed_origins' );
 function add_allowed_origins( $origins ) {
     $origins[] = 'http://blend.horseman.dev';
     $origins[] = 'https://blend.horesman.io';
+    $origins[] = 'http://reacttraining.dev';
     return $origins;
 }
 
